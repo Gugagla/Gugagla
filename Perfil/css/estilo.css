@@ -1,0 +1,80 @@
+body {
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+  }
+
+nav {
+    background: linear-gradient(to right, #c73f00, #0004e4);
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+img#imagepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 870px;
+    height: 630px;
+    object-fit: cover;
+}
+
+.btn-red {
+    background-color: red !important;
+    color:rgba(255, 255, 255, 0.925) !important;
+}
+
+#outlook {
+    padding-top: 15px;
+}
+
+.contato {
+    padding-top: 50px;
+    padding-left: 15px;
+    margin: auto;
+    font-size: 20px; 
+    display: inline-block;
+}
+
+.contato img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+
+.contatos {
+    display:flex
+}
+
+.floatWa {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+
+.img16 {
+    margin-top:16px;
+}
+
+.navbar {
+    position: absolute;
+}
